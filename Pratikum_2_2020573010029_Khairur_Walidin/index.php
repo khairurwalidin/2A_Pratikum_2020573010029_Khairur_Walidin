@@ -1,3 +1,4 @@
 <?php
-encho"ini adalah script PHP pertama saya"
+echo"ini adalah script PHP pertama saya<br>";
+echo"ini adalah kalimat kedua saya"
 ?>
