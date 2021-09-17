@@ -8,7 +8,7 @@
 </head>
 <body>
         <?php
-            $nama = "Muhd. Almeer Farsha";
+            $nama = "Khairur Walidin";
             echo "$nama berkata \"Katakan namamu!\"";
         ?>
     
