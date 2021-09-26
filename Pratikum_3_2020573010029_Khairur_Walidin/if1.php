@@ -12,7 +12,7 @@
          if ($d=="sat")
          echo "Selamat berakhir pekan!"; 
          else
-         echo "Selamat belajar"
+         echo "Selamat belajarr"
     ?>
 </body>
 </html>
