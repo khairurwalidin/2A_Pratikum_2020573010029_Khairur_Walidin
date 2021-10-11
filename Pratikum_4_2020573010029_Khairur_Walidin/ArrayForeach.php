@@ -8,16 +8,15 @@
 </head>
 <body>
     <?php
-    //melakukan break pada $i == 2
-    for ($i = 0; $i<5; $i++)
-    {
-        if ($i == 2)
+        $anak[0] = "Faruq";
+        $anak[1] = "Alya"; 
+        $anak[2] = "Zahro";
+        foreach ($anak as $value)
         {
-            break;
+            echo "Nama anak : $value";
+            echo "<br>";
         }
-        echo ("Nilai i : $i <br>");
-    }
-        echo ("Loop selesai hhhhhhh");
     ?>
+    
 </body>
 </html>

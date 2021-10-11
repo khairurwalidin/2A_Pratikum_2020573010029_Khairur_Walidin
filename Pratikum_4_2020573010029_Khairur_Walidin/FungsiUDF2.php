@@ -8,16 +8,15 @@
 </head>
 <body>
     <?php
-    //melakukan break pada $i == 2
-    for ($i = 0; $i<5; $i++)
-    {
-        if ($i == 2)
+        function psgpjg ($pjg, $lbr)
         {
-            break;
+            return $luas;
         }
-        echo ("Nilai i : $i <br>");
-    }
-        echo ("Loop selesai hhhhhhh");
+        $bil1 = 5;
+        $bil2 = 3;
+        echo "Luas persegi panjang dengan pjg 5 dan lebar 3 =";
+        echo psgpjg($bil1,$bil2);
     ?>
+    
 </body>
 </html>

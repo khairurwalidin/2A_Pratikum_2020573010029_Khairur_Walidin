@@ -8,16 +8,11 @@
 </head>
 <body>
     <?php
-    //melakukan break pada $i == 2
-    for ($i = 0; $i<5; $i++)
-    {
-        if ($i == 2)
-        {
-            break;
-        }
-        echo ("Nilai i : $i <br>");
-    }
-        echo ("Loop selesai hhhhhhh");
+    $skr = date ("d/m/Y");
+    echo "Sekarang adalah $skr <br>";
+    $waktu = date("h:i:s A");   //A Menunjukkan AM atau PM 
+    echo "Jam menunjukkan pukul : $waktu";
     ?>
+    
 </body>
 </html>
