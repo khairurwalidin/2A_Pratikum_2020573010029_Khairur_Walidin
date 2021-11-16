@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!empty($_SESSION['username'])){
-  echo "<script>window.location='file.php';</script>";
+  echo "<script>window.location='../file.php';</script>";
 }
 ?>
 <!doctype html>
@@ -40,7 +40,7 @@ if (!empty($_SESSION['username'])){
   <body class="text-center">
     
 <main class="form-signin">
-  <form action="proses_signin.php" method="POST">
+  <form action="../proses/proses_signin.php" method="POST">
   <h1 class="h3 mb-3 fw-normal">SISTEM INFORMASI PEMINJAMAN BARANG TI</h1>
     <img class="mb-4" src="unnamed.jpg" alt="" width="100" height="90">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
